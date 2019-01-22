@@ -1,0 +1,84 @@
+h1,h2,h3,h4,h5,h6{
+    padding: 0px;
+    margin: 0px;
+}
+header .jumbotron {
+    height: 50px;
+    background-color: #3e3d3dde;
+    padding: 0px;
+}
+.container h1 {
+    display: inline-block;
+    font-weight: bold;
+    color: #d4cec8;
+}
+.nav-menu {
+    display: inline-block;
+    padding: 0px;
+}
+.nav-menu li {
+    margin-top: 10px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 460;
+    color: #f7f1eb;
+}
+.gn-tools {
+    margin-top: 6px;
+    float:right;
+    display: inline-block;
+}
+.gn-tools li {
+    display: inline-block;
+    float: left;
+    margin-left: 18px;
+}
+.gn-tools .input-group {
+    width: 360px;
+    /* height: 36px; */
+    background-color: #f7f1eb;
+    border-radius: 4px;
+}
+.gn-tools li a {
+    display: inline-block;
+    margin-top: 6px; 
+    color: #f1eae2;
+    font-size: 18px;
+    font-weight: 450;
+}
+.gn-tools li:nth-child(4) {
+    padding: 2px 10px;
+    background-color: #3282e0;
+    border-radius: 2px;
+}
+.container .content {
+    height: 1100px;
+    position: relative;
+    top: 50px;
+    left: 0;
+    z-index: 1;
+}
+.container .content .img {
+    height: 200px;
+    margin: 2px;
+    float: left;
+}
+.container .content .img img {
+    height: 200px;
+}
+.navbar-nav a {
+    margin-right: 60px;
+    color: #d4cec8 !important;
+}
+footer .jumbotron.jumbotron-fluid {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #212124;
+
+}
+hr {
+    background-color: #777777;
+}
